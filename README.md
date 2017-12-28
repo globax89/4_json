@@ -6,18 +6,18 @@ Command-line tool to pretty-print JSON
 
 Example of script launch on Linux, Python 3.5:
 ```bash
-$ git clone https://github.com/globax89/4_json.git
+$ git clone <https://github.com/globax89/4_json.git>
 $ cd 4_json
 ```
 
 ## How to use
-```python
+```bash
 $ python3 pprint_json.py <path to json file>
 ```
 
 ## Sample
 
-```python
+```bash
 $ python3 pprint_json.py sample.json
 {
     "properties": {
