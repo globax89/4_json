@@ -1,13 +1,13 @@
 import os
 import sys
 import json
-# import json.tool
+import json.tool
 # import pprint
 
 
 def load_data(filepath):
     if os.path.exists(filepath):
-        with open(filepath, 'r') as file:
+        with open(filepath, encoding='utf-8') as file:
             return json.load(file)
     else:
         print("File path not correct")
